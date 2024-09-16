@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t}from"./chunks/framework.CkUmv4-S.js";const k=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"工程化/webpack/webpack.md","filePath":"工程化/webpack/webpack.md"}'),c={name:"工程化/webpack/webpack.md"};function p(r,o,s,n,_,d){return t(),a("div")}const m=e(c,[["render",p]]);export{k as __pageData,m as default};

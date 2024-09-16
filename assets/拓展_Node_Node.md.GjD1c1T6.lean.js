@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.CkUmv4-S.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"拓展/Node/Node.md","filePath":"拓展/Node/Node.md"}'),a={name:"拓展/Node/Node.md"};function r(d,s,c,n,p,_){return o(),t("div")}const f=e(a,[["render",r]]);export{m as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as r}from"./chunks/framework.CkUmv4-S.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"框架/Angular/Angular.md","filePath":"框架/Angular/Angular.md"}'),t={name:"框架/Angular/Angular.md"};function n(o,s,c,l,p,u){return r(),e("div")}const i=a(t,[["render",n]]);export{d as __pageData,i as default};
