@@ -14,6 +14,9 @@ hero:
     - theme: alt
       text: About
       link: /api-examples
+    - theme: alt
+      text: 面试经验
+      link: https://flowus.cn/share/49bc4979-5728-4502-832c-957311e1efc2?code=0C24PD
 
 features:
   - icon:
@@ -80,3 +83,35 @@ console.log("Debug 成功，Bug 变 Feature! 🎉");
   </div>
 </div>
 ```
+
+---
+
+## frontmatter
+
+<style>
+:root {
+  --vp-c-brand-1: #18794e;
+  --vp-c-brand-2: #299764;
+  --vp-c-brand-3: #30a46c;
+  /* 标题渐变色 以下是官方主题色*/
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #ffe941ff);
+
+  /*图标背景渐变色 以下是官方主题色*/
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 30%, #fff047ff 30%, #47caff 70%);
+  --vp-home-hero-image-filter: blur(40px);
+}
+
+.dark {
+  --vp-c-brand-1: #3dd68c;
+  --vp-c-brand-2: #30a46c;
+  --vp-c-brand-3: #298459;
+  /* 标题渐变色 以下是官方主题色*/
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+
+  /*图标背景渐变色 以下是官方主题色*/
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --vp-home-hero-image-filter: blur(40px);
+}
+</style>
