@@ -5,6 +5,7 @@ export default defineConfig({
   srcDir: "../docs",
   title: "Mars Rover",
   lang: "zh-CN",
+  lastUpdated: true,
   description: "探索知识的星球",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -34,21 +35,72 @@ export default defineConfig({
       },
     },
     nav: [
-      { text: "前端", link: "/markdown-examples" },
-      { text: "客户端", link: "/client-examples" },
-      { text: "后端", link: "/backend-examples" },
-      { text: "工具", link: "/tools-examples" },
-    ],
-
-    sidebar: [
       {
-        text: "React",
+        text: "前端",
         items: [
-          { text: "基础react", link: "/markdown-examples" },
-          { text: "运行时 API 示例", link: "/api-examples" },
+          { text: "基础", link: "/markdown-examples" },
+          { text: "ts", link: "/ts" },
+          { text: "react", link: "/react/" },
+          { text: "vue", link: "/vue/" },
         ],
       },
+      {
+        text: "工程化",
+        items: [
+          { text: "git", link: "/git-examples" },
+          {
+            text: "webpack",
+            link: "/webpack-examples",
+          },
+          { text: "vite", link: "/vite-examples" },
+          { text: "ci/cd", link: "/ci-cd-examples" },
+          { text: "测试", link: "/test-examples" },
+          { text: "监控", link: "/monitor-examples" },
+        ],
+      },
+      {
+        text: "客户端",
+        items: [{ text: "客户端", link: "/client-examples" }],
+      },
+      {
+        text: "后端",
+        items: [{ text: "后端", link: "/backend-examples" }],
+      },
+      {
+        text: "工具",
+        items: [{ text: "工具", link: "/tools-examples" }],
+      },
     ],
+
+    sidebar: {
+      "/vue/": [
+        {
+          text: "Vue",
+          items: [
+            { text: "vue2", link: "/vue/v2" },
+            { text: "vue3", link: "/vue/v3" },
+            { text: "pinia", link: "/vue/pinia" },
+            { text: "vue-router", link: "/vue/vue-router" },
+            { text: "nuxt3", link: "/vue/nuxt3" },
+          ],
+        },
+      ],
+      "/react/": [
+        {
+          text: "react",
+          items: [
+            { text: "基础", link: "/react/" },
+            { text: "进阶", link: "/react/advanced" },
+            { text: "路由", link: "/react/router" },
+            { text: "状态管理", link: "/react/state" },
+            { text: "脚手架", link: "/react/scaffolding" },
+            { text: "服务端渲染", link: "/react/ssr" },
+            { text: "React Native", link: "/react/react-native" },
+            { text: "Hooks", link: "/react/hooks" },
+          ],
+        },
+      ],
+    },
     socialLinks: [{ icon: "github", link: "https://github.com/caoyawei062" }],
   },
 });
