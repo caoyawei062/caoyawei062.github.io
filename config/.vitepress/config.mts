@@ -10,6 +10,19 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/assets/planet.svg",
+
+    // 本地化配置
+    docFooter: {
+      prev: "上一页",
+      next: "下一页",
+    },
+    lastUpdatedText: "最后更新时间",
+    returnToTopLabel: "返回顶部",
+    sidebarMenuLabel: "菜单",
+    darkModeSwitchLabel: "主题",
+    lightModeSwitchTitle: "切换到浅色模式",
+    darkModeSwitchTitle: "切换到深色模式",
+
     editLink: {
       pattern:
         "https://github.com/caoyawei062/caoyawei062.github.io/edit/main/docs/:path",
@@ -73,7 +86,7 @@ export default defineConfig({
       },
       {
         text: "工具",
-        items: [{ text: "工具", link: "/tools-examples" }],
+        items: [{ text: "vscode", link: "/tools/vscode" }],
       },
     ],
 
@@ -102,6 +115,22 @@ export default defineConfig({
             { text: "服务端渲染", link: "/react/ssr" },
             { text: "React Native", link: "/react/react-native" },
             { text: "Hooks", link: "/react/hooks" },
+          ],
+        },
+      ],
+      "/tools/": [
+        {
+          text: "工具",
+          link: "/tools/vscode",
+          items: [
+            {
+              text: "vscode",
+              link: "/tools/vscode",
+            },
+            {
+              text: "sublime",
+              link: "/tools/sublime",
+            },
           ],
         },
       ],
