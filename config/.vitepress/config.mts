@@ -10,6 +10,11 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/assets/planet.svg",
+    editLink: {
+      pattern:
+        "https://github.com/caoyawei062/caoyawei062.github.io/edit/main/docs/:path",
+      text: "在 GitHub 上编辑此页",
+    },
     search: {
       provider: "local",
       options: {
