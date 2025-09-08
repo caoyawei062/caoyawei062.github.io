@@ -90,9 +90,7 @@ console.log("Debug 成功，Bug 变 Feature! 🎉");
 
 <style>
 :root {
-  --vp-c-brand-1: #18794e;
-  --vp-c-brand-2: #299764;
-  --vp-c-brand-3: #30a46c;
+ 
   /* 标题渐变色 以下是官方主题色*/
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #ffe941ff);
@@ -103,9 +101,7 @@ console.log("Debug 成功，Bug 变 Feature! 🎉");
 }
 
 .dark {
-  --vp-c-brand-1: #3dd68c;
-  --vp-c-brand-2: #30a46c;
-  --vp-c-brand-3: #298459;
+
   /* 标题渐变色 以下是官方主题色*/
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
