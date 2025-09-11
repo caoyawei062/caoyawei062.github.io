@@ -82,13 +82,9 @@ console.log("Debug 成功，Bug 变 Feature! 🎉");
 ```
   </div>
 </div>
-```
-
----
-
-## frontmatter
 
 <style>
+
 :root {
  
   /* 标题渐变色 以下是官方主题色*/
