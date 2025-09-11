@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.DeYX_sqr.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vue/pinia.md","filePath":"vue/pinia.md","lastUpdated":1757314705000}'),n={name:"vue/pinia.md"};function i(r,o,s,p,c,d){return a(),t("div")}const f=e(n,[["render",i]]);export{m as __pageData,f as default};
