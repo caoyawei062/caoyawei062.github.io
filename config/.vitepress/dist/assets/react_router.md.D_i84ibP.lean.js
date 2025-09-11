@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./chunks/framework.DeYX_sqr.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"react/router.md","filePath":"react/router.md","lastUpdated":1757314705000}'),a={name:"react/router.md"};function o(c,s,n,d,p,_){return r(),t("div")}const f=e(a,[["render",o]]);export{m as __pageData,f as default};

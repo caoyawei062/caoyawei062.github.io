@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./chunks/framework.DeYX_sqr.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"react/hooks.md","filePath":"react/hooks.md","lastUpdated":1757314705000}'),o={name:"react/hooks.md"};function r(s,c,n,d,p,_){return a(),t("div")}const f=e(o,[["render",r]]);export{m as __pageData,f as default};

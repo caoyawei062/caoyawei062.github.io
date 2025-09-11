@@ -1,1 +1,0 @@
-import{_ as t,c as e,o}from"./chunks/framework.DeYX_sqr.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tools/git.md","filePath":"tools/git.md","lastUpdated":1757315425000}'),a={name:"tools/git.md"};function s(r,c,n,i,d,p){return o(),e("div")}const m=t(a,[["render",s]]);export{_ as __pageData,m as default};

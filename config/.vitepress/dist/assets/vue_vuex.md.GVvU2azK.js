@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./chunks/framework.DeYX_sqr.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vue/vuex.md","filePath":"vue/vuex.md","lastUpdated":1757314705000}'),r={name:"vue/vuex.md"};function o(s,c,n,d,p,u){return a(),t("div")}const m=e(r,[["render",o]]);export{i as __pageData,m as default};

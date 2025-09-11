@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./chunks/framework.DeYX_sqr.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"react/index.md","filePath":"react/index.md","lastUpdated":1757314705000}'),r={name:"react/index.md"};function n(c,o,s,d,i,p){return a(),t("div")}const f=e(r,[["render",n]]);export{m as __pageData,f as default};

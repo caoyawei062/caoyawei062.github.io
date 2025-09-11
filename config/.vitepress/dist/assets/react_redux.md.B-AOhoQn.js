@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./chunks/framework.DeYX_sqr.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"react/redux.md","filePath":"react/redux.md","lastUpdated":1757314705000}'),r={name:"react/redux.md"};function c(o,s,d,n,p,_){return a(),t("div")}const f=e(r,[["render",c]]);export{m as __pageData,f as default};

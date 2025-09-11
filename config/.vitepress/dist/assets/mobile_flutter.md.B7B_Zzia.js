@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./chunks/framework.DeYX_sqr.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"mobile/flutter.md","filePath":"mobile/flutter.md","lastUpdated":1757315425000}'),r={name:"mobile/flutter.md"};function o(s,c,l,n,i,d){return a(),e("div")}const p=t(r,[["render",o]]);export{m as __pageData,p as default};

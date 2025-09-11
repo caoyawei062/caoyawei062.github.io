@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./chunks/framework.DeYX_sqr.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"typescript.md","filePath":"typescript.md","lastUpdated":1757314705000}'),r={name:"typescript.md"};function s(p,c,o,n,i,d){return a(),e("div")}const f=t(r,[["render",s]]);export{m as __pageData,f as default};
